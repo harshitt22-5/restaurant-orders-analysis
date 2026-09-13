@@ -70,7 +70,7 @@ Analyzes:
 
 ### Time & Order Analysis
 
-![Time & Order Analysis](Screenshots/Time_Order_Analysis.png)
+![Time & Order Analysis](Screenshots/Time_and_Order_Analysis.png)
 
 ### Menu Performance Analysis
 
