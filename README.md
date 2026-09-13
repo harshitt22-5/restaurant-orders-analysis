@@ -1,6 +1,6 @@
 # Restaurant Orders Analysis
 
-An end-to-end restaurant sales analysis project using **Excel and Power BI** to analyze sales performance, customer ordering patterns, menu performance, and category-level revenue.
+An end-to-end restaurant sales analysis project using **Microsoft Excel and Power BI** to analyze sales performance, ordering patterns, menu performance, and category-level revenue.
 
 ## 📊 Project Overview
 
@@ -27,12 +27,14 @@ The analysis focuses on:
 
 - `Restaurant_Orders_Dashboard.pbix` – Final Power BI dashboard
 - `Restaurant_Analysis.xlsx` – Excel analysis workbook
+- `Screenshots/` – Dashboard screenshots
 
 ## 📈 Power BI Dashboard
 
 The Power BI report contains three analytical pages:
 
 ### 1. Restaurant Sales Overview
+
 Provides a high-level view of:
 
 - Total Revenue
@@ -43,6 +45,7 @@ Provides a high-level view of:
 - Revenue by Category
 
 ### 2. Time & Order Analysis
+
 Analyzes:
 
 - Items Ordered by Hour
@@ -51,12 +54,27 @@ Analyzes:
 - Average Order Value by Month
 
 ### 3. Menu Performance Analysis
+
 Analyzes:
 
 - Items Sold by Category
 - Revenue by Category
 - Top 5 Items by Units Sold
 - Bottom 5 Items by Units Sold
+
+## 🖼️ Dashboard Preview
+
+### Restaurant Sales Overview
+
+![Restaurant Sales Overview](Screenshots/Restaurant_Sales_Overview.png)
+
+### Time & Order Analysis
+
+![Time & Order Analysis](Screenshots/Time_Order_Analysis.png)
+
+### Menu Performance Analysis
+
+![Menu Performance Analysis](Screenshots/Menu_Performance_Analysis.png)
 
 ## 🔎 Key Findings
 
@@ -80,7 +98,7 @@ Key preparation steps included:
 - Converting order dates into proper date values
 - Handling missing (`NULL`) item IDs
 - Linking order data with menu information
-- Creating calculated measures for revenue, orders, AOV and item volume
+- Creating calculated measures for revenue, orders, AOV, and item volume
 - Building a dedicated date table for time-based analysis
 
 ## 📌 Data Source
